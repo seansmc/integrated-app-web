@@ -1,8 +1,20 @@
 if(sessionStorage.getItem("ID") === "1"){
+    var titles=["Oral Language Lesson 1","Oral Language Lesson 2","Oral Language Lesson 3","Oral Language Lesson 4","Oral Language Lesson 5"];
+    for(var temp = 0; temp <=4; temp++){
+        Populate(temp,titles[temp]);
+    }
     
 }else if(sessionStorage.getItem("ID") === "2"){
+    var titles=["Lesson 1 Song","Lesson 2 Rhyme","Lesson 3 Poems","Lesson 4 Stories","Lesson 5 Writing"];
+    for(var temp = 0; temp <=4; temp++){
+        Populate(temp,titles[temp]);
+    }
 
 }else if(sessionStorage.getItem("ID") === "3"){
+    var titles=["Phonics Lesson 1","Phonics Lesson 2","Phonics Lesson 3", "Phonics Lesson 4", "Phonics Lesson 5" , "Phonics Lesson 6", "Phonics Lesson 7", "Phonics Lesson 8","Word-Recognition Lesson 1", "Word Recognition Lesson 2","Word-Recognition Lesson 3","Word-Recognition Lesson 4"];
+    for(var temp = 0; temp <=11; temp++){
+        Populate(temp,titles[temp]);
+    }
     
 }else if(sessionStorage.getItem("ID") === "4"){
     
