@@ -1,7 +1,7 @@
 if(sessionStorage.getItem("ID") === "1"){
     var titles=["Oral Language Lesson 1","Oral Language Lesson 2","Oral Language Lesson 3","Oral Language Lesson 4","Oral Language Lesson 5"];
     for(var temp = 0; temp <=4; temp++){
-        Populate(temp,titles[temp]);
+        PopulateP(temp,titles[temp]);
     }
     
 }else if(sessionStorage.getItem("ID") === "2"){
@@ -35,6 +35,7 @@ if(sessionStorage.getItem("ID") === "1"){
 }else if(sessionStorage.getItem("ID") === "9"){
     var titles=["Parts of the Books","Print awareness","Mark it!","What We Like About Stories","What do you do with a Book"];
     for(var temp= 1;temp<=5;temp++){
+        Populate(temp,titles[temp]);
        
     }
 }
